@@ -1,0 +1,41 @@
+{
+    "username": "",
+    "password": "",
+    "persona": 1,
+    "name": {
+        "default": "Bot-Mouse",
+        "animation": [
+            "Bot-Mouse | ^‿^",
+            "Bot-Mouse | Made By E-Mouse",
+            "Bot-Mouse | WIP",
+            "Bot-Mouse | <Open Source>"
+        ],
+        "interval": 30
+    },
+    "game": {
+        "default": "Booting up!",
+        "animation": [
+            "Half-Life 2 episode 3",
+            "Half-Life 3",
+            "Team Fortress 3",
+            "Portal 3",
+            "Dota 3",
+            "Left 4 Dead 3",
+            "Bot made by E-Mouse"
+        ],
+        "interval": 30
+    },
+    "admins": ["76561198136055833"],
+    "commandPrefix": "!",
+    "newFriend": {
+        "accept": true,
+        "message": "Hello, type !help for help"
+    },
+    "logging": {
+        "logToConsole": true,
+        "logToFile": false,
+        "logFileName": "",
+        "consoleLogLevel": "info",
+        "fileLogLevel": "info"
+    }
+}

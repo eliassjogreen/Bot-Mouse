@@ -1,0 +1,66 @@
+{
+    "name": "bot-mouse",
+    "version": "0.0.1",
+    "main": "index.js",
+    "author": "E-Mouse",
+    "license": "MIT",
+    "dependencies": {
+        "steam-totp": "^2.1.0",
+        "steam-tradeoffer-manager": "^2.9.3",
+        "steam-user": "^3.27.0",
+        "steamcommunity": "^3.36.1",
+        "steamid": "^1.1.0",
+        "winston": "^2.4.2"
+    },
+    "devDependencies": {
+        "xo": "^0.20.3"
+    },
+    "scripts": {
+        "lint": "xo",
+        "lint:fix": "xo --fix",
+        "config": "node ./scripts/config.js"
+    },
+    "xo": {
+        "files": "src/*.js",
+        "semicolon": true,
+        "space": false,
+        "esnext": true,
+        "envs": [
+            "node"
+        ],
+        "rules": {
+            "unicorn/filename-case": [
+                "error",
+                {
+                    "case": "camelCase"
+                }
+            ],
+            "camelcase": [
+                "error",
+                {
+                    "properties": "never"
+                }
+            ],
+            "quotes": [
+                "error",
+                "single",
+                {
+                    "avoidEscape": true,
+                    "allowTemplateLiterals": true
+                }
+            ],
+            "object-curly-spacing": [
+                "error",
+                "always"
+            ],
+            "no-use-before-define": [
+                "error",
+                {
+                    "functions": false,
+                    "classes": false,
+                    "variables": false
+                }
+            ]
+        }
+    }
+}
