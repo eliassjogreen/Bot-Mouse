@@ -61,4 +61,4 @@ typings/
 .next
 
 # The data directory where all of the sentry files and stuff is stored
-data/
+data/*
